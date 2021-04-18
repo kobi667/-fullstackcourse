@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>טופס הרשמה</h1>
+    <form  method="GET">
+        <fieldset>
+           
+        <label  for="fname">שם מלא</label>
+        <input type="text"  name="fname">
+        </fieldset>
+        <fieldset>
+        <label for=" user email">אמייל</label>
+        <input type="email" name=" User email">
+        </fieldset>
+        <fieldset>
+        <label for=" IDnumber">תעודת זהות</label>
+        <input type="number"  name="  Id number" maxlength="9" id="pin" required>
+        </fieldset>
+        <fieldset>
+            <label for="sex">זכר
+            <input type="radio"  name="sex" value="זכר">
+        </label>
+        <label for="sex">נקבה
+            <input type="radio"  name="sex" value="זכר">
+        </label>
+
+            </fieldset>
+            <fieldset>
+                <label for=" massage">הודעה</label>
+                <input type="text"  name="massage">
+                </fieldset>
+                <button>submit</button>
+    </form>
+</body>
+</html>
