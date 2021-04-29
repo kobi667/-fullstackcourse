@@ -1,0 +1,83 @@
+#header{
+ background-color: blue;
+}
+nav{
+   font-size: 25px;
+   text-align: center;
+   background-color:lightblue;
+}
+.name{
+    display:block;
+    text-align: right;
+    padding-right: 100px;
+    color: white;    
+    background: blue;
+}
+#mypic{
+    float: left;    
+    height: 267px;
+    width: 150px;  
+}
+.name fieldset{
+    display: inline;
+    background-color: blue;
+    color: white;
+}
+.proj1{
+    background: lightblue;    
+    display: block;
+    height: 250px;
+    text-align: right;   
+}
+#proj1pic{
+    width: 300px;
+    height: 250px;
+   display: block;
+   float: right;    
+}
+#proj2pic{
+    width: 250px;
+    height: 250px;
+   display: block;
+   float: right
+}    
+.proj2{
+    background: lightblue;    
+    display: block;
+    height: 250px;
+    text-align: right;   
+}
+.form{
+    text-align: end;
+    font-size: 20px;
+    color: white; 
+    width: 50%;  
+
+}
+.form button{
+   display:inline-block;
+    font-size: 20px;    
+    width: 175px;
+}
+#footer{
+    text-align: center;
+    background-color: lightblue;
+}
+.btn{
+    border: none;
+    display: inline;
+    padding: 5px 10px;
+    float: right;
+}
+
+
+
+    
+    
+
+    
+
+
+
+   
+
